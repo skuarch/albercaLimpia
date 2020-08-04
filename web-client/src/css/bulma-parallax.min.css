@@ -48,7 +48,7 @@
   }
   
   #parallax-1 {
-    background: url("../img/9.jpg");
+    background: url("https://albercalimpia.github.io/web-client/dist/img/9.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@
   }
   
   #parallax-2 {
-    background: url("../img/10.jpg");
+    background: url("https://albercalimpia.github.io/web-client/dist/img/10.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@
   }
   
   #parallax-3 {
-    background: url("../img/5.jpg");
+    background: url("https://albercalimpia.github.io/web-client/dist/img/5.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@
   }
 
   #parallax-4 {
-    background: url("../img/1.jpg");
+    background: url("https://albercalimpia.github.io/web-client/dist/img/1.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

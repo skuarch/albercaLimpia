@@ -5,7 +5,7 @@ const clean = require('gulp-clean');
 const fs = require('fs');
 
 const htmlSrc = './web-client/src/*.html';
-const distFolder = './web-client/dist';
+const distFolder = './web-client/albercaLimpia';
 const webClientFolder = './web-client';
 const assetsFolder = './web-client/src/assets';
 const files = [
@@ -83,27 +83,27 @@ exports.deleteDist = () => {
 
 exports.copy = () => {
   return gulp.src(files)
-    .pipe(gulp.dest('web-client/dist'));
+    .pipe(gulp.dest('web-client/albercaLimpia'));
 };
 
 exports.copyImg = () => {
   return gulp.src(images)
-    .pipe(gulp.dest('web-client/dist/img'));
+    .pipe(gulp.dest('web-client/albercaLimpia/img'));
 };
 
 exports.copyJs = () => {
   return gulp.src(js)
-    .pipe(gulp.dest('web-client/dist/js'));
+    .pipe(gulp.dest('web-client/albercaLimpia/js'));
 };
 
 exports.copyCss = () => {
   return gulp.src(css)
-    .pipe(gulp.dest('web-client/dist/css'));
+    .pipe(gulp.dest('web-client/albercaLimpia/css'));
 };
 
 exports.copyAssets = () => {
   return gulp.src(assets)
-    .pipe(gulp.dest('web-client/dist/assets'));
+    .pipe(gulp.dest('web-client/albercaLimpia/assets'));
 };
 
 gulp.task('copy', function () {
